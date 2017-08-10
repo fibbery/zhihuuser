@@ -13,7 +13,7 @@ class ZhihuuserItem(Item):
     pass
 
 class UserItem(Item):
-    # define the fields for your item
+    # baseinfo
     id = Field()
     name = Field()
     avatar_url = Field()
