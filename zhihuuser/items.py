@@ -22,7 +22,7 @@ class UserItem(Item):
     url = Field()
     url_token = Field()
     gender = Field()
-    cover_url = Field()
+    avatar_url_template= Field()
     type = Field()
     badge = Field()
 
