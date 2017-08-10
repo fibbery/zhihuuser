@@ -14,3 +14,8 @@ followees_url = 'https://www.zhihu.com/api/v4/members/{user}/followees?include={
 followers_url = 'https://www.zhihu.com/api/v4/members/{user}/followers?include={include}&offset={offset}&limit={limit}'  #获取关注该用户的人
 ```
 
+
+
+## 使用
+
+进入项目根目录执行  scrapy spider zhihu
